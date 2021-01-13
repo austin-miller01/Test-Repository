@@ -15,10 +15,11 @@ class Book{
 
 
 int main(){
+  cout << "hello world" << endl;
     Book b;
     b.setname("hello world");
     b.setISBN(24);
     b.print();
     return 0;
 
-}   
+}
